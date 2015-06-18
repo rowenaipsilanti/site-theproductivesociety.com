@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  background-color: #1F2933;
+  font-family: "Ubuntu", "Segoe UI", "Myriad Pro", "Helvetica", "Arial", sans-serif;
+  text-align: center;
+}
+
+/**************************************************
+ * Home
+ **************************************************/
+#home {
+  display: block;
+  padding: 50px;
+  width: 1000px;
+  min-width: 1100px;
+  margin: auto;
+}
+
+#title p {
+  margin: 0;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: #A5A9AD;
+}
+
+#home-thumbnail {
+  position: absolute;
+  top: 220px;
+  width: 99.8%;
+  height: 500px;
+}
+
+#home-thumbnail img {
+  display: inline-block;
+}
+
+/**************************************************
+ * Footer
+ **************************************************/
+#footer {
+  display: inline-block;
+  position: relative;
+  top: 720px;
+}
+
+#footer p {
+  margin: 0;
+  font-size: .7em;
+  color: #A5A9AD;
+}
+
+#footer a {
+  font-size: .7em;
+  font-weight: 300;
+  color: #4D6882;
+  text-decoration: none;
+}
